@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
 const Header = ({title}) => {
   return (
@@ -10,8 +10,8 @@ const Header = ({title}) => {
 };
 
 Header.defaultProps = {
-    title = 'Shopping List'
-}
+  title: 'Shopping List',
+};
 
 const styles = StyleSheet.create({
   header: {
